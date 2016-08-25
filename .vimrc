@@ -1,6 +1,3 @@
-execute pathogen#infect()
-
-
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
 " Use the same symbols as TextMate for tabstops and EOLs
@@ -8,6 +5,8 @@ set listchars=tab:▸\ ,eol:¬
 
 autocmd bufwritepost .vimrc source $MYVIMRC
 nmap <leader>v :tabedit $MYVIMRC<CR>
+
+nnoremap <F5> :GundoToggle<CR>
 
 set ts=4
 set sts=4

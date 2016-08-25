@@ -17,8 +17,10 @@
 $
 
 # Command Line History (newest to oldest):
-:wq
 :q
+:wq
+:Q
+:W
 :w
 :help netrw
 :wqa
@@ -63,10 +65,8 @@ $
 :set tab
 :set tabs
 :set runtimepath^=~/.vim/bundle/node
-:Q
 :BundleInstall moll/vim-node
 :set paste
-:'<,'>
 
 # Search String History (newest to oldest):
 ?/leader
@@ -163,21 +163,25 @@ $
 "9	LINE	0
 	.bash_history
 ""-	CHAR	0
-	/
+	execute pathogen#infect()
 
 # File marks:
-'0  1  0  ~/df/bob
-'1  5  11  ~/.gitignore
-'2  12  6  ~/.gitignore
-'3  15  2  ~/.gitignore
-'4  3  21  ~/.gitmodules
-'5  1  0  ~/.git/index
-'6  9  0  ~/.gitconfig
-'7  10  0  ~/.gitignore
-'8  7  5  ~/.gitignore
-'9  3  4  ~/.gitignore
+'0  1  0  ~/.vimrc
+'1  14  5  ~/.vimrc
+'2  9  29  ~/.vimrc
+'3  1  0  ~/df/bob
+'4  5  11  ~/.gitignore
+'5  12  6  ~/.gitignore
+'6  15  2  ~/.gitignore
+'7  3  21  ~/.gitmodules
+'8  1  0  ~/.git/index
+'9  9  0  ~/.gitconfig
 
 # Jumplist (newest first):
+-'  1  0  ~/.vimrc
+-'  14  5  ~/.vimrc
+-'  20  0  ~/.vimrc
+-'  9  29  ~/.vimrc
 -'  1  0  ~/df/bob
 -'  5  11  ~/.gitignore
 -'  1  0  ~/.gitignore
@@ -194,13 +198,11 @@ $
 -'  2  0  ~/.gitignore
 -'  8  12  ~/.gitignore
 -'  9  1  ~/.gitignore
--'  1  0  ~/.vimrc
--'  10  35  ~/.vimrc
--'  13  6  ~/.vimrc
--'  5  12  ~/.vimrc
--'  169  56  ~/.vimrc
--'  15  0  ~/.vimrc
--'  33  0  ~/.vimrc
+-'  7  35  ~/.vimrc
+-'  12  6  ~/.vimrc
+-'  2  12  ~/.vimrc
+-'  168  56  ~/.vimrc
+-'  32  0  ~/.vimrc
 -'  7  0  ~/NERD_tree_1
 -'  1  0  ~/NERD_tree_1
 -'  1790  5  ~/pkgs_manual.list
@@ -221,21 +223,21 @@ $
 -'  6  20  ~/code/commissions/cloudbanter/server/test/api/adverts/adverts.controller.spec.js
 -'  44  73  ~/code/commissions/cloudbanter/server/app.js
 -'  1  0  ~/code/commissions/cloudbanter/server/app.js
--'  17  18  ~/.vimrc
+-'  16  18  ~/.vimrc
 -'  20  0  ~/code/commissions/cloudbanter/server/app.js
 -'  1  0  node_modules/express-jwt/lib/index.js
--'  43  7  ~/.vimrc
--'  243  25  ~/.vimrc
--'  27  10  ~/.vimrc
--'  24  11  ~/.vimrc
+-'  42  7  ~/.vimrc
+-'  242  25  ~/.vimrc
+-'  26  10  ~/.vimrc
 -'  23  11  ~/.vimrc
 -'  22  11  ~/.vimrc
--'  264  11  ~/.vimrc
--'  223  21  ~/.vimrc
--'  222  23  ~/.vimrc
--'  28  10  ~/.vimrc
--'  26  10  ~/.vimrc
--'  235  0  ~/.vimrc
+-'  21  11  ~/.vimrc
+-'  263  11  ~/.vimrc
+-'  222  21  ~/.vimrc
+-'  221  23  ~/.vimrc
+-'  27  10  ~/.vimrc
+-'  25  10  ~/.vimrc
+-'  234  0  ~/.vimrc
 -'  2  0  ~/code/commissions/cloudbanter/server/app.js
 -'  1  0  ~/__Tag_List__
 -'  2  0  ~/__Tag_List__
@@ -269,16 +271,78 @@ $
 -'  7  0  ~/code/mine/scrapepins/other.sh
 -'  1  0  ~/code/mine/scrapepins/other.sh
 -'  4  22  ~/code/mine/scrapepins/other.sh
--'  13  8  ~/code/mine/scrapepins/other.sh
--'  1  0  ~/code/mine/scrapepins/mine.sh
--'  2  10  ~/code/mine/gwallgofrwydd/.gitignore
--'  1  0  ~/code/mine/gwallgofrwydd/.gitignore
--'  27  35  ~/code/mine/gwallgofrwydd/Makefile
--'  1  0  ~/code/mine/gwallgofrwydd/build/initramfs
--'  5  3  ~/code/mine/gwallgofrwydd/.gitignore
--'  4  13  ~/code/mine/gwallgofrwydd/.gitignore
 
 # History of marks within files (newest to oldest):
+
+> ~/.vimrc
+	"	1	0
+	^	1	0
+	.	2	0
+	+	1	8
+	+	272	27
+	+	39	26
+	+	40	0
+	+	42	17
+	+	39	26
+	+	40	0
+	+	274	0
+	+	1	0
+	+	184	0
+	+	186	0
+	+	193	0
+	+	220	1
+	+	1	0
+	+	225	0
+	+	226	0
+	+	227	0
+	+	228	0
+	+	225	1
+	+	227	0
+	+	42	11
+	+	58	0
+	+	115	20
+	+	115	0
+	+	98	0
+	+	1	0
+	+	11	0
+	+	15	0
+	+	1	24
+	+	20	14
+	+	225	0
+	+	226	0
+	+	227	0
+	+	228	0
+	+	244	0
+	+	39	0
+	+	42	8
+	+	240	8
+	+	239	26
+	+	16	18
+	+	225	3
+	+	226	3
+	+	227	3
+	+	228	3
+	+	234	0
+	+	233	4
+	+	220	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	4	0
+	+	2	0
+	+	6	0
+	+	12	8
+	+	14	0
+	+	6	43
+	+	7	35
+	+	8	0
+	+	10	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
 
 > ~/df/bob
 	"	1	0
@@ -363,68 +427,6 @@ $
 
 > ~/.vim/.netrwhist
 	"	1	0
-
-> ~/.vimrc
-	"	1	0
-	^	10	36
-	.	10	35
-	+	1	8
-	+	273	27
-	+	40	26
-	+	41	0
-	+	43	17
-	+	40	26
-	+	41	0
-	+	275	0
-	+	1	0
-	+	185	0
-	+	187	0
-	+	194	0
-	+	221	1
-	+	1	0
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	226	1
-	+	228	0
-	+	43	11
-	+	59	0
-	+	116	20
-	+	116	0
-	+	99	0
-	+	1	0
-	+	12	0
-	+	16	0
-	+	1	24
-	+	21	14
-	+	226	0
-	+	227	0
-	+	228	0
-	+	229	0
-	+	245	0
-	+	40	0
-	+	43	8
-	+	241	8
-	+	240	26
-	+	17	18
-	+	226	3
-	+	227	3
-	+	228	3
-	+	229	3
-	+	235	0
-	+	234	4
-	+	221	0
-	+	8	0
-	+	7	0
-	+	6	0
-	+	7	0
-	+	5	0
-	+	9	0
-	+	13	8
-	+	15	0
-	+	9	43
-	+	10	35
 
 > ~/NERD_tree_1
 	"	7	0
