@@ -166,18 +166,19 @@ $
 	/
 
 # File marks:
-'0  5  11  ~/.gitignore
-'1  12  6  ~/.gitignore
-'2  15  2  ~/.gitignore
-'3  3  21  ~/.gitmodules
-'4  1  0  ~/.git/index
-'5  9  0  ~/.gitconfig
-'6  10  0  ~/.gitignore
-'7  7  5  ~/.gitignore
-'8  3  4  ~/.gitignore
-'9  8  12  ~/.gitignore
+'0  1  0  ~/df/bob
+'1  5  11  ~/.gitignore
+'2  12  6  ~/.gitignore
+'3  15  2  ~/.gitignore
+'4  3  21  ~/.gitmodules
+'5  1  0  ~/.git/index
+'6  9  0  ~/.gitconfig
+'7  10  0  ~/.gitignore
+'8  7  5  ~/.gitignore
+'9  3  4  ~/.gitignore
 
 # Jumplist (newest first):
+-'  1  0  ~/df/bob
 -'  5  11  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  12  6  ~/.gitignore
@@ -276,9 +277,11 @@ $
 -'  1  0  ~/code/mine/gwallgofrwydd/build/initramfs
 -'  5  3  ~/code/mine/gwallgofrwydd/.gitignore
 -'  4  13  ~/code/mine/gwallgofrwydd/.gitignore
--'  6  4  ~/code/mine/gwallgofrwydd/.gitignore
 
 # History of marks within files (newest to oldest):
+
+> ~/df/bob
+	"	1	0
 
 > ~/.gitignore
 	"	5	11
@@ -975,6 +978,3 @@ $
 
 > ~/.Xauthority
 	"	1	0
-
-> /etc/X11/Xsession
-	"	70	0
