@@ -1,0 +1,9 @@
+[user]
+	name = Kathie Dart
+	email = git@kathiedart.uk
+[credential]
+	helper = cache
+[push]
+	default = simple
+[color]
+	ui = auto

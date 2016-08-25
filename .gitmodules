@@ -1,0 +1,15 @@
+[submodule ".vim/bundle/node"]
+	path = .vim/bundle/node
+	url = git@github.com:moll/vim-node.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule ".vim/bundle/onedark"]
+	path = .vim/bundle/onedark
+	url = git@github.com:joshdick/onedark.vim.git
+[submodule ".vim/bundle/polyglot"]
+	path = .vim/bundle/polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
+[submodule ".vim/bundle/taglist"]
+	path = .vim/bundle/taglist
+	url = git@github.com:vim-scripts/taglist.vim.git
