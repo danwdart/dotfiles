@@ -17,8 +17,8 @@
 $
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
 :Q
 :W
 :w
@@ -167,8 +167,8 @@ $
 
 # File marks:
 '0  1  0  ~/.vimrc
-'1  14  5  ~/.vimrc
-'2  9  29  ~/.vimrc
+'1  16  5  ~/.vimrc
+'2  11  29  ~/.vimrc
 '3  1  0  ~/df/bob
 '4  5  11  ~/.gitignore
 '5  12  6  ~/.gitignore
@@ -179,9 +179,9 @@ $
 
 # Jumplist (newest first):
 -'  1  0  ~/.vimrc
--'  14  5  ~/.vimrc
--'  20  0  ~/.vimrc
--'  9  29  ~/.vimrc
+-'  16  5  ~/.vimrc
+-'  22  0  ~/.vimrc
+-'  11  29  ~/.vimrc
 -'  1  0  ~/df/bob
 -'  5  11  ~/.gitignore
 -'  1  0  ~/.gitignore
@@ -198,11 +198,11 @@ $
 -'  2  0  ~/.gitignore
 -'  8  12  ~/.gitignore
 -'  9  1  ~/.gitignore
--'  7  35  ~/.vimrc
--'  12  6  ~/.vimrc
--'  2  12  ~/.vimrc
--'  168  56  ~/.vimrc
--'  32  0  ~/.vimrc
+-'  9  35  ~/.vimrc
+-'  14  6  ~/.vimrc
+-'  4  12  ~/.vimrc
+-'  170  56  ~/.vimrc
+-'  34  0  ~/.vimrc
 -'  7  0  ~/NERD_tree_1
 -'  1  0  ~/NERD_tree_1
 -'  1790  5  ~/pkgs_manual.list
@@ -223,21 +223,21 @@ $
 -'  6  20  ~/code/commissions/cloudbanter/server/test/api/adverts/adverts.controller.spec.js
 -'  44  73  ~/code/commissions/cloudbanter/server/app.js
 -'  1  0  ~/code/commissions/cloudbanter/server/app.js
--'  16  18  ~/.vimrc
+-'  18  18  ~/.vimrc
 -'  20  0  ~/code/commissions/cloudbanter/server/app.js
 -'  1  0  node_modules/express-jwt/lib/index.js
--'  42  7  ~/.vimrc
--'  242  25  ~/.vimrc
--'  26  10  ~/.vimrc
+-'  44  7  ~/.vimrc
+-'  244  25  ~/.vimrc
+-'  28  10  ~/.vimrc
+-'  25  11  ~/.vimrc
+-'  24  11  ~/.vimrc
 -'  23  11  ~/.vimrc
--'  22  11  ~/.vimrc
--'  21  11  ~/.vimrc
--'  263  11  ~/.vimrc
--'  222  21  ~/.vimrc
--'  221  23  ~/.vimrc
+-'  265  11  ~/.vimrc
+-'  224  21  ~/.vimrc
+-'  223  23  ~/.vimrc
+-'  29  10  ~/.vimrc
 -'  27  10  ~/.vimrc
--'  25  10  ~/.vimrc
--'  234  0  ~/.vimrc
+-'  236  0  ~/.vimrc
 -'  2  0  ~/code/commissions/cloudbanter/server/app.js
 -'  1  0  ~/__Tag_List__
 -'  2  0  ~/__Tag_List__
@@ -271,78 +271,81 @@ $
 -'  7  0  ~/code/mine/scrapepins/other.sh
 -'  1  0  ~/code/mine/scrapepins/other.sh
 -'  4  22  ~/code/mine/scrapepins/other.sh
+-'  1  0  ~/df/bob
 
 # History of marks within files (newest to oldest):
 
 > ~/.vimrc
 	"	1	0
-	^	1	0
-	.	2	0
+	^	1	25
+	.	1	0
 	+	1	8
-	+	272	27
-	+	39	26
-	+	40	0
-	+	42	17
-	+	39	26
-	+	40	0
-	+	274	0
+	+	274	27
+	+	41	26
+	+	42	0
+	+	44	17
+	+	41	26
+	+	42	0
+	+	276	0
 	+	1	0
-	+	184	0
 	+	186	0
-	+	193	0
-	+	220	1
+	+	188	0
+	+	195	0
+	+	222	1
 	+	1	0
-	+	225	0
-	+	226	0
 	+	227	0
 	+	228	0
-	+	225	1
-	+	227	0
-	+	42	11
-	+	58	0
-	+	115	20
-	+	115	0
-	+	98	0
+	+	229	0
+	+	230	0
+	+	227	1
+	+	229	0
+	+	44	11
+	+	60	0
+	+	117	20
+	+	117	0
+	+	100	0
 	+	1	0
-	+	11	0
-	+	15	0
+	+	13	0
+	+	17	0
 	+	1	24
-	+	20	14
-	+	225	0
-	+	226	0
+	+	22	14
 	+	227	0
 	+	228	0
-	+	244	0
-	+	39	0
-	+	42	8
-	+	240	8
-	+	239	26
-	+	16	18
-	+	225	3
-	+	226	3
+	+	229	0
+	+	230	0
+	+	246	0
+	+	41	0
+	+	44	8
+	+	242	8
+	+	241	26
+	+	18	18
 	+	227	3
 	+	228	3
-	+	234	0
-	+	233	4
-	+	220	0
-	+	5	0
-	+	4	0
-	+	3	0
-	+	4	0
-	+	2	0
+	+	229	3
+	+	230	3
+	+	236	0
+	+	235	4
+	+	222	0
+	+	7	0
 	+	6	0
-	+	12	8
-	+	14	0
-	+	6	43
-	+	7	35
+	+	5	0
+	+	6	0
+	+	4	0
 	+	8	0
+	+	14	8
+	+	16	0
+	+	8	43
+	+	9	35
 	+	10	0
+	+	12	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
 	+	1	0
-	+	2	0
+	+	4	0
+	+	4	0
+	+	1	0
 
 > ~/df/bob
 	"	1	0
