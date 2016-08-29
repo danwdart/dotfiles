@@ -24,6 +24,11 @@ nmap <C-N><C-N> :set invnumber<CR>
 nmap <C-P><C-P> :set invpaste<CR>
 nmap <C-T><C-T> :TlistToggle<CR>
 
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 inoremap <C-D> <ESC>:call PhpDocSingle()<CR>i
 nnoremap <C-D> :call PhpDocSingle()<CR>
 vnoremap <C-D> :call PhpDocRange()<CR>
