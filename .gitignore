@@ -15,6 +15,7 @@
 !/.ssh/known_hosts
 !/.ssh/id_rsa.pub
 !/.ssh/authorized_keys
+!/.ssh/config
 !/.irssi
 
 /.vim/backup*
