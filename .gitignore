@@ -4,7 +4,9 @@
 !/.gitignore
 !/.gitconfig
 !/.vim*
+.viminfo
 !/.vim
+.vim/tmp
 !/.bash*
 !/.profile
 
