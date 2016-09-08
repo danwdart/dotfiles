@@ -32,6 +32,9 @@
 /.kde/share/apps/amarok/mysqle/amarok/*
 !/.kde/share/apps/amarok/mysqle/amarok/podcastchannels*.M*
 
+!/.fldigi
+/.fldigi/*
+!/.fldigi/fldigi_def.xml
 
 /.vim/backup*
 /.bash_history
