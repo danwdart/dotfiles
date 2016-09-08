@@ -18,5 +18,20 @@
 !/.ssh/config
 !/.irssi
 
+!/.kde
+/.kde/*
+!/.kde/share
+/.kde/share/*
+!/.kde/share/apps
+/.kde/share/apps/*
+!/.kde/share/apps/amarok
+/.kde/share/apps/amarok/*
+!/.kde/share/apps/amarok/mysqle
+/.kde/share/apps/amarok/mysqle/*
+!/.kde/share/apps/amarok/mysqle/amarok
+/.kde/share/apps/amarok/mysqle/amarok/*
+!/.kde/share/apps/amarok/mysqle/amarok/podcastchannels*.M*
+
+
 /.vim/backup*
 /.bash_history
