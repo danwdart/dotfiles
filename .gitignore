@@ -4,9 +4,10 @@
 !/.gitignore
 !/.gitconfig
 !/.vim*
-.viminfo
+/.viminfo
 !/.vim
-.vim/tmp
+!/.vim/tmp/.gitkeep
+!/.vim/backup/.gitkeep
 !/.bash*
 !/.profile
 
