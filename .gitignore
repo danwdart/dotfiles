@@ -19,6 +19,11 @@
 !/.ssh/config
 !/.irssi
 
+# Not really sure about which of these need to be secret
+#!/.gnupg
+#/.gnupg/secring.gpg
+#/.gnupg/private-keys-v1.d/
+
 !/.kde
 /.kde/*
 !/.kde/share
