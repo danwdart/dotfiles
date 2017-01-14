@@ -1,9 +1,12 @@
 [user]
 	name = Kathie Dart
 	email = git@kathiedart.uk
+	signingkey = 39A8DF97
 [credential]
 	helper = cache
 [push]
 	default = simple
 [color]
 	ui = auto
+[commit]
+	gpgsign = true
