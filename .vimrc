@@ -43,7 +43,7 @@ set incsearch
 nnoremap <Esc>P P'[v' ]=
 set undolevels=1000
 
-:imap ;EM git@kathiedart.uk
+:imap ;EM git@dandart.co.uk
 ":imap ;WEM web-developers@mobilefun.co.uk
 :imap ;D die(__FILE__ . ' : ' . __LINE__);
 :imap ;L console.log() 

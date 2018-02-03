@@ -1045,7 +1045,7 @@ Abort message extraction after nn.n seconds of inactivity -->
 
 <!-- type: std::string; default: &quot;&quot;
 Full pathname to the cty.dat data file -->
-<CTYDAT_PATHNAME>/home/kvd/.fldigi/</CTYDAT_PATHNAME>
+<CTYDAT_PATHNAME>/home/dwd/.fldigi/</CTYDAT_PATHNAME>
 
 <!-- type: bool; default: false
 Capture text to file 'talk/textout.txt' -->
@@ -1177,7 +1177,7 @@ Hamlib stopbits <1/2>. -->
 
 <!-- type: std::string; default: &quot;&quot;
 RigCAT XML file name -->
-<XMLRIGFILENAME>/home/kvd/.fldigi/rig-not-assigned.xml</XMLRIGFILENAME>
+<XMLRIGFILENAME>/home/dwd/.fldigi/rig-not-assigned.xml</XMLRIGFILENAME>
 
 <!-- type: std::string; default: DEFAULT_HAMRIGDEVICE
 RigCAT device -->
@@ -1412,7 +1412,7 @@ End of transmit delay before disabling PTT -->
 
 <!-- type: std::string; default: &quot;&quot;
 Logbook file name -->
-<LOGBOOKFILENAME>/home/kvd/.fldigi/logs/logbook.adif</LOGBOOKFILENAME>
+<LOGBOOKFILENAME>/home/dwd/.fldigi/logs/logbook.adif</LOGBOOKFILENAME>
 
 <!-- type: bool; default: false
 Force RST in/out to 599 -->
@@ -2122,7 +2122,7 @@ Purge KML data at startup -->
 
 <!-- type: std::string; default: &quot;&quot;
 Destination directory for generated KML documents -->
-<KML_SAVE_DIR>/home/kvd/.fldigi/kml/</KML_SAVE_DIR>
+<KML_SAVE_DIR>/home/dwd/.fldigi/kml/</KML_SAVE_DIR>
 
 <!-- type: std::string; default: &quot;&quot;
 Command executed when creating KML files -->
