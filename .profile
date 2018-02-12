@@ -18,9 +18,8 @@ fi
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$HOME/.composer/vendor/bin:/opt/wine-devel/bin:$PATH"
+    PATH="$HOME/bin:$PATH"
 fi
 
-export PATH="$HOME/.cargo/bin:$PATH"
-
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
+export PATH=~/.npm-global/bin:$PATH
