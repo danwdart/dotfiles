@@ -8,8 +8,6 @@
 !/.vim
 !/.vim/tmp/.gitkeep
 !/.vim/backup/.gitkeep
-!/.bash*
-!/.profile
 
 # Not really sure about which of these need to be secret
 #!/.gnupg
