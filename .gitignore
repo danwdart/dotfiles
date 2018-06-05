@@ -11,14 +11,6 @@
 !/.bash*
 !/.profile
 
-!/.ssh
-/.ssh/*
-!/.ssh/known_hosts
-!/.ssh/id_rsa.pub
-!/.ssh/authorized_keys
-!/.ssh/config
-!/.irssi
-
 # Not really sure about which of these need to be secret
 #!/.gnupg
 #/.gnupg/secring.gpg
