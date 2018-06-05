@@ -1,21 +1,12 @@
 /*
-
-!/bin
 !/.gitignore
 !/.gitconfig
 !/.vim*
 /.viminfo
-!/.vim
-/.vim/*
-!/.vim/tmp/
-!/.vim/tmp/.gitkeep
-!/.vim/backup/
+/.vim/backup
 !/.vim/backup/.gitkeep
-
-# Not really sure about which of these need to be secret
-#!/.gnupg
-#/.gnupg/secring.gpg
-#/.gnupg/private-keys-v1.d/
+/.vim/tmp
+!/.vim/tmp/.gitkeep
 
 !/.kde
 /.kde/*
@@ -34,6 +25,3 @@
 !/.fldigi
 /.fldigi/*
 !/.fldigi/fldigi_def.xml
-
-/.vim/backup*
-/.bash_history
