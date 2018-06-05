@@ -1,7 +1,7 @@
 [user]
 	name = Dan Dart
 	email = git@dandart.co.uk
-	signingkey = 39A8DF97
+    ; signingkey = 39A8DF97
 [credential]
 	helper = cache
 [push]
