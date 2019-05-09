@@ -3,6 +3,7 @@
 !/.gitconfig
 !/.vim*
 /.viminfo
+/.vim
 /.vim/backup
 !/.vim/backup/.gitkeep
 /.vim/tmp
