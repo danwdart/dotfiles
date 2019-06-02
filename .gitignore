@@ -26,3 +26,9 @@
 !/.fldigi
 /.fldigi/*
 !/.fldigi/fldigi_def.xml
+
+!/.stack
+/.stack/*
+!/.stack/config.yaml
+
+!/.ghci
