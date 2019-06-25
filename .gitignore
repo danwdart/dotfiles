@@ -32,3 +32,5 @@
 !/.stack/config.yaml
 
 !/.ghci
+
+!/.bashrc
