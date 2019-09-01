@@ -1,5 +1,7 @@
 :set +m
-:def hoogle \x -> return $ ":!hoogle \"" ++ x ++ "\""
-:def doc \x -> return $ ":!hoogle --info \"" ++ x ++ "\""
 :set prompt "λ> "
 :set prompt-cont " | "
+:def hoogle \x -> return $ ":!hoogle \"" ++ x ++ "\""
+:def doc \x -> return $ ":!hoogle --info \"" ++ x ++ "\""
+import Data.Function
+import Data.Functor
