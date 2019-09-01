@@ -117,49 +117,9 @@ if ! shopt -oq posix; then
 fi
 # source me
 export GITHUB_ACCESS_TOKEN=
-export PATH="/home/dwd/.deno/bin:/home/dwd/.ghcup/bin:/home/dwd/.cabal/bin:$PATH"
 
-d() {
-    sudo docker $@
-}
+source /home/dwd/code/mine/dockers/source.sh
 
-dc() {
-    [ -f docker-compose.dev.yml ] && sudo docker-compose -f docker-compose.yml -f docker-compose.dev.yml $@ || sudo docker-compose $@
-}
-
-alias dcu='dc up -d'
-alias dcd='dc down'
-alias dce='dc exec'
-alias dcr='dc run'
-alias dcrr='dc run --service-ports --rm'
-
-alias dcl='dc logs'
-alias dclf='dc logs -f'
-alias dcp='dc ps'
-
-alias dcsta='dc start'
-alias dcsto='dc stop'
-
-alias dcre='dc restart'
-
-alias dr='d run'
-alias dri='d run -it'
-alias drd='d run -d'
-
-alias dsta='d start'
-alias dsto='d stop'
-
-alias dre='d restart'
-
-alias drr='d run --rm'
-alias drri='d run --rm -it'
-alias drrd='d run --rm -d'
-
-alias de='d exec'
-alias dp='d ps'
-alias dl='d logs'
-alias dlf='d logs -f'
-alias ds='d search'
-alias dsp='d system prune -af'
-
+export PATH=/home/dwd/bin:$PATH
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
 
