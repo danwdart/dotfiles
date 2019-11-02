@@ -9,20 +9,6 @@
 /.vim/tmp
 !/.vim/tmp/.gitkeep
 
-!/.kde
-/.kde/*
-!/.kde/share
-/.kde/share/*
-!/.kde/share/apps
-/.kde/share/apps/*
-!/.kde/share/apps/amarok
-/.kde/share/apps/amarok/*
-!/.kde/share/apps/amarok/mysqle
-/.kde/share/apps/amarok/mysqle/*
-!/.kde/share/apps/amarok/mysqle/amarok
-/.kde/share/apps/amarok/mysqle/amarok/*
-!/.kde/share/apps/amarok/mysqle/amarok/podcastchannels*.M*
-
 !/.fldigi
 /.fldigi/*
 !/.fldigi/fldigi_def.xml
@@ -30,6 +16,9 @@
 !/.stack
 /.stack/*
 !/.stack/config.yaml
+!/.stack/global-project
+/.stack/global-project/*
+!/.stack/global-project/stack.yaml
 
 !/.ghci
 
