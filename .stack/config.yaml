@@ -10,7 +10,7 @@ templates:
   params:
     author-name: Dan Dart
     author-email: stack@dandart.co.uk
-    copyright: Dan Dart 2019-
+    copyright: Dan Dart
     github-username: danwdart
 
 # The following parameter specifies stack's output styles; STYLES is a

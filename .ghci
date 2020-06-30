@@ -1,7 +1,5 @@
 :set +m
-:set prompt "λ> "
+:set prompt "\ESC[38;5;208m\STXλ>\ESC[m\STX "
 :set prompt-cont " | "
 :def hoogle \x -> return $ ":!hoogle \"" ++ x ++ "\""
 :def doc \x -> return $ ":!hoogle --info \"" ++ x ++ "\""
-import Data.Function
-import Data.Functor
