@@ -1,18 +1,22 @@
 #!/bin/bash
-INITDIR=~/code/mine/haskell
+INITDIR=~/code
 cd $INITDIR
-find -name stack.yaml.lock -delete
 # Clear deps
 # Update snapshot version
 echo Finding Haskell projects...
-for STACKS in $(find -name stack.yaml)
+for DIRLOC in ~/code/mine/haskell ~/code/mine/multi/projects/haskell
 do
-    DIR=$(dirname $STACKS)
-    BASE=$(basename $DIR)
-    echo Updating $BASE...
-    cd $DIR
-    stack build
-    echo Finished updating $BASE
-    cd $INITDIR
+    echo Using repos location $DIRLOC
+    find -name stack.yaml.lock -delete
+    for STACKS in $(find $DIRLOC -name stack.yaml)
+    do
+        DIR=$(dirname $STACKS)
+        BASE=$(basename $DIR)
+        echo Updating $BASE...
+        cd $DIR
+        stack build
+        echo Finished updating $BASE
+        cd $INITDIR
+    done
 done
 echo Done!
