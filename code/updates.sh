@@ -1,5 +1,5 @@
 #!/bin/bash
-INITDIR=~/code
+INITDIR=~/code/mine/haskell
 cd $INITDIR
 find -name stack.yaml.lock -delete
 # Clear deps
