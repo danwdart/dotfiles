@@ -266,3 +266,12 @@
 [submodule "code/mine/vb6/winspy"]
 	path = code/mine/vb6/winspy
 	url = git@github.com:danwdart/winspy.git
+[submodule "code/mine/haskell/websites"]
+	path = code/mine/haskell/websites
+	url = git@github.com:danwdart/websites.git
+[submodule "code/mine/haskell/chatter"]
+	path = code/mine/haskell/chatter
+	url = git@github.com:danwdart/chatter.git
+[submodule "code/mine/haskell/dubloons"]
+	path = code/mine/haskell/dubloons
+	url = git@github.com:danwdart/dubloons.git
