@@ -275,3 +275,6 @@
 [submodule "code/mine/haskell/dubloons"]
 	path = code/mine/haskell/dubloons
 	url = git@github.com:danwdart/dubloons.git
+[submodule "code/mine/multi/projects"]
+	path = code/mine/multi/projects
+	url = git@github.com:danwdart/projects.git
