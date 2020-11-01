@@ -278,3 +278,6 @@
 [submodule "code/mine/multi/projects"]
 	path = code/mine/multi/projects
 	url = git@github.com:danwdart/projects.git
+[submodule "code/mine/docker/dockers"]
+	path = code/mine/docker/dockers
+	url = git@github.com:danwdart/dockers.git
