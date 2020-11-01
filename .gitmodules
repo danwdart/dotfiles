@@ -1,3 +1,5 @@
+# For me
+
 [submodule ".vim/bundle/node"]
 	path = .vim/bundle/node
 	url = git@github.com:moll/vim-node.git
@@ -22,3 +24,245 @@
 [submodule ".vim/bundle/unimpaired"]
 	path = .vim/bundle/unimpaired
 	url = git@github.com:tpope/vim-unimpaired.git
+
+# Commissions
+
+[submodule "code/commissions/foodsurvey"]
+	path = code/commissions/foodsurvey
+	url = git@github.com:danwdart/foodsurvey.git
+[submodule "code/commissions/sysmon"]
+	path = code/commissions/sysmon
+	url = git@github.com:danwdart/sysmon.git
+[submodule "code/commissions/todoapp"]
+	path = code/commissions/todoapp
+	url = git@github.com:danwdart/todoapp
+[submodule "code/commissions/passport-oauth-example"]
+	path = code/commissions/passport-oauth-example
+	url = git@github.com:danwdart/passport-oauth-example
+[submodule "code/commissions/Dan-cockatiel123"]
+	path = code/commissions/Dan-cockatiel123
+	url = git@github.com:danwdart/Dan-cockatiel123
+[submodule "code/commissions/btreesols"]
+	path = code/commissions/btreesols
+	url = git@github.com:danwdart/btreesols
+
+# Mine
+[submodule "code/mine/asm/danos"]
+	path = code/mine/asm/danos
+	url = git@github.com:danwdart/danos.git
+[submodule "code/mine/blitz/vinski"]
+	path = code/mine/blitz/vinski
+	url = git@github.com:danwdart/vinski.git
+[submodule "code/mine/c/danos32"]
+	path = code/mine/c/danos32
+	url = git@github.com:danwdart/danos32.git
+[submodule "code/mine/cpp/cricket"]
+	path = code/mine/cpp/cricket
+	url = git@github.com:danwdart/cricket.git
+[submodule "code/mine/c/software-application-standard"]
+	path = code/mine/c/software-application-standard
+	url = git@github.com:danwdart/software-application-standard.git
+[submodule "code/mine/docker/pooh"]
+	path = code/mine/docker/pooh
+	url = git@github.com:danwdart/pooh.git
+[submodule "code/mine/docker/sanitos"]
+	path = code/mine/docker/sanitos
+	url = git@github.com:danwdart/sanitos.git
+[submodule "code/mine/empty/danos64"]
+	path = code/mine/empty/danos64
+	url = git@github.com:danwdart/danos64.git
+[submodule "code/mine/empty/nostalgia"]
+	path = code/mine/empty/nostalgia
+	url = git@github.com:danwdart/nostalgia.git
+[submodule "code/mine/haskell/4letters"]
+	path = code/mine/haskell/4letters
+	url = git@github.com:danwdart/4letters.git
+[submodule "code/mine/haskell/compositions"]
+	path = code/mine/haskell/compositions
+	url = git@github.com:danwdart/compositions.git
+[submodule "code/mine/haskell/funky-birthdays"]
+	path = code/mine/haskell/funky-birthdays
+	url = git@github.com:danwdart/funky-birthdays.git
+[submodule "code/mine/js/anglo"]
+	path = code/mine/js/anglo
+	url = git@github.com:danwdart/anglo.git
+[submodule "code/mine/js/arsebeatfish"]
+	path = code/mine/js/arsebeatfish
+	url = git@github.com:danwdart/arsebeatfish.git
+[submodule "code/mine/js/autosnope"]
+	path = code/mine/js/autosnope
+	url = git@github.com:danwdart/autosnope.git
+[submodule "code/mine/js/avia"]
+	path = code/mine/js/avia
+	url = git@github.com:danwdart/avia.git
+[submodule "code/mine/js/bev"]
+	path = code/mine/js/bev
+	url = git@github.com:danwdart/bev.git
+[submodule "code/mine/js/dartcomm"]
+	path = code/mine/js/dartcomm
+	url = git@github.com:danwdart/dartcomm.git
+[submodule "code/mine/js/drpl"]
+	path = code/mine/js/drpl
+	url = git@github.com:danwdart/drpl.git
+[submodule "code/mine/js/equationsounds"]
+	path = code/mine/js/equationsounds
+	url = git@github.com:danwdart/equationsounds.git
+[submodule "code/mine/js/fps"]
+	path = code/mine/js/fps
+	url = git@github.com:danwdart/fps.git
+[submodule "code/mine/js/freespeech"]
+	path = code/mine/js/freespeech
+	url = git@github.com:danwdart/freespeech.git
+[submodule "code/mine/js/fsm"]
+	path = code/mine/js/fsm
+	url = git@github.com:danwdart/fsm.git
+[submodule "code/mine/js/gravity"]
+	path = code/mine/js/gravity
+	url = git@github.com:danwdart/gravity.git
+[submodule "code/mine/js/haber"]
+	path = code/mine/js/haber
+	url = git@github.com:danwdart/haber.git
+[submodule "code/mine/js/heartish"]
+	path = code/mine/js/heartish
+	url = git@github.com:danwdart/heartish.git
+[submodule "code/mine/js/jammin"]
+	path = code/mine/js/jammin
+	url = git@github.com:danwdart/jammin.git
+[submodule "code/mine/js/js86"]
+	path = code/mine/js/js86
+	url = git@github.com:danwdart/js86.git
+[submodule "code/mine/js/jsarm"]
+	path = code/mine/js/jsarm
+	url = git@github.com:danwdart/jsarm.git
+[submodule "code/mine/js/kallistarvin"]
+	path = code/mine/js/kallistarvin
+	url = git@github.com:danwdart/kallistarvin.git
+[submodule "code/mine/js/movesic"]
+	path = code/mine/js/movesic
+	url = git@github.com:danwdart/movesic.git
+[submodule "code/mine/js/oeis"]
+	path = code/mine/js/oeis
+	url = git@github.com:danwdart/oeis.git
+[submodule "code/mine/js/omegcli"]
+	path = code/mine/js/omegcli
+	url = git@github.com:danwdart/omegcli.git
+[submodule "code/mine/js/patchdeck"]
+	path = code/mine/js/patchdeck
+	url = git@github.com:danwdart/patchdeck.git
+[submodule "code/mine/js/pcomm"]
+	path = code/mine/js/pcomm
+	url = git@github.com:danwdart/pcomm.git
+[submodule "code/mine/js/polypropene"]
+	path = code/mine/js/polypropene
+	url = git@github.com:danwdart/polypropene.git
+[submodule "code/mine/js/retroradio"]
+	path = code/mine/js/retroradio
+	url = git@github.com:danwdart/retroradio.git
+[submodule "code/mine/js/scalr-phonegap"]
+	path = code/mine/js/scalr-phonegap
+	url = git@github.com:danwdart/scalr-phonegap.git
+[submodule "code/mine/js/secant"]
+	path = code/mine/js/secant
+	url = git@github.com:danwdart/secant.git
+[submodule "code/mine/js/serverless-prs-github"]
+	path = code/mine/js/serverless-prs-github
+	url = git@github.com:danwdart/serverless-prs-github.git
+[submodule "code/mine/js/vidsort"]
+	path = code/mine/js/vidsort
+	url = git@github.com:danwdart/vidsort.git
+[submodule "code/mine/js/vinski2"]
+	path = code/mine/js/vinski2
+	url = git@github.com:danwdart/vinski2.git
+[submodule "code/mine/js/VypZZ"]
+	path = code/mine/js/VypZZ
+	url = git@github.com:danwdart/VypZZ.git
+[submodule "code/mine/js/zepper"]
+	path = code/mine/js/zepper
+	url = git@github.com:danwdart/zepper.git
+[submodule "code/mine/other/webtex"]
+	path = code/mine/other/webtex
+	url = git@github.com:danwdart/webtex.git
+[submodule "code/mine/php/amqp"]
+	path = code/mine/php/amqp
+	url = git@github.com:danwdart/amqp.git
+[submodule "code/mine/php/betabud"]
+	path = code/mine/php/betabud
+	url = git@github.com:danwdart/betabud.git
+[submodule "code/mine/php/Bibud"]
+	path = code/mine/php/Bibud
+	url = git@github.com:danwdart/Bibud.git
+[submodule "code/mine/php/evilphp"]
+	path = code/mine/php/evilphp
+	url = git@github.com:danwdart/evilphp.git
+[submodule "code/mine/php/form"]
+	path = code/mine/php/form
+	url = git@github.com:danwdart/form.git
+[submodule "code/mine/php/multiorm"]
+	path = code/mine/php/multiorm
+	url = git@github.com:danwdart/multiorm.git
+[submodule "code/mine/php/php-async"]
+	path = code/mine/php/php-async
+	url = git@github.com:danwdart/php-async.git
+[submodule "code/mine/php/php-socket"]
+	path = code/mine/php/php-socket
+	url = git@github.com:danwdart/php-socket.git
+[submodule "code/mine/php/projectchaplin"]
+	path = code/mine/php/projectchaplin
+	url = git@github.com:danwdart/projectchaplin.git
+[submodule "code/mine/php/sesite"]
+	path = code/mine/php/sesite
+	url = git@github.com:danwdart/sesite.git
+[submodule "code/mine/php/ShareAV"]
+	path = code/mine/php/ShareAV
+	url = git@github.com:danwdart/ShareAV.git
+[submodule "code/mine/php/widgeter"]
+	path = code/mine/php/widgeter
+	url = git@github.com:danwdart/widgeter.git
+[submodule "code/mine/php/xenon"]
+	path = code/mine/php/xenon
+	url = git@github.com:danwdart/xenon.git
+[submodule "code/mine/php/zetabud"]
+	path = code/mine/php/zetabud
+	url = git@github.com:danwdart/zetabud.git
+[submodule "code/mine/pug/jolharg-theme"]
+	path = code/mine/pug/jolharg-theme
+	url = git@github.com:danwdart/jolharg-theme.git
+[submodule "code/mine/shell/autopache"]
+	path = code/mine/shell/autopache
+	url = git@github.com:danwdart/autopache.git
+[submodule "code/mine/shell/distruck"]
+	path = code/mine/shell/distruck
+	url = git@github.com:danwdart/distruck.git
+[submodule "code/mine/shell/glitcher"]
+	path = code/mine/shell/glitcher
+	url = git@github.com:danwdart/glitcher.git
+[submodule "code/mine/shell/gwallgofrwydd"]
+	path = code/mine/shell/gwallgofrwydd
+	url = git@github.com:danwdart/gwallgofrwydd.git
+[submodule "code/mine/shell/install_everything"]
+	path = code/mine/shell/install_everything
+	url = git@github.com:danwdart/install_everything.git
+[submodule "code/mine/shell/scrapeda"]
+	path = code/mine/shell/scrapeda
+	url = git@github.com:danwdart/scrapeda.git
+[submodule "code/mine/shell/scrapepins"]
+	path = code/mine/shell/scrapepins
+	url = git@github.com:danwdart/scrapepins.git
+[submodule "code/mine/shell/system"]
+	path = code/mine/shell/system
+	url = git@github.com:danwdart/system.git
+[submodule "code/mine/shell/update-checker"]
+	path = code/mine/shell/update-checker
+	url = git@github.com:danwdart/update-checker.git
+[submodule "code/mine/tcl/selaunch"]
+	path = code/mine/tcl/selaunch
+	url = git@github.com:danwdart/selaunch.git
+[submodule "code/mine/vb6/rflvb"]
+	path = code/mine/vb6/rflvb
+	url = git@github.com:danwdart/rflvb.git
+[submodule "code/mine/vb6/sevb"]
+	path = code/mine/vb6/sevb
+	url = git@github.com:danwdart/sevb.git
+[submodule "code/mine/vb6/winspy"]
+	path = code/mine/vb6/winspy
+	url = git@github.com:danwdart/winspy.git
