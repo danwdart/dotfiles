@@ -1,0 +1,61 @@
+{
+	"folders": [
+		{
+			"path": "haskell/4letters"
+		},
+		{
+			"path": "haskell/dubloons"
+		},
+		{
+			"path": "haskell/compositions"
+		},
+		{
+			"path": "haskell/websites"
+		},
+		{
+			"path": "haskell/funky-birthdays"
+		},
+		{
+			"path": "haskell/chatter"
+		},
+		{
+			"path": "multi/projects/haskell/boardgames"
+		},
+		{
+			"path": "multi/projects/haskell/cgi-bin"
+		},
+		{
+			"path": "multi/projects/haskell/consolefrp"
+		},
+		{
+			"path": "multi/projects/haskell/ghcjs-stuff"
+		},
+		{
+			"path": "multi/projects/haskell/jsaddle-stuff"
+		},
+		{
+			"path": "multi/projects/haskell/maths"
+		},
+		{
+			"path": "multi/projects/haskell/misostuff"
+		},
+		{
+			"path": "multi/projects/haskell/other"
+		},
+		{
+			"path": "multi/projects/haskell/peoplemanager"
+		},
+		{
+			"path": "multi/projects/haskell/reflex-headless"
+		},
+		{
+			"path": "multi/projects/haskell/reflexstuff"
+		},
+		{
+			"path": "multi/projects/haskell/slsdemo"
+		},
+		{
+			"path": "multi/projects/haskell/web-other"
+		}
+	]
+}
