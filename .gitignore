@@ -8,6 +8,7 @@
 !/.vim/backup/.gitkeep
 /.vim/tmp
 !/.vim/tmp/.gitkeep
+!/.vim/bundle
 
 !/.fldigi
 /.fldigi/*
