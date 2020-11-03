@@ -40,9 +40,6 @@
 			"path": "multi/projects/haskell/misostuff"
 		},
 		{
-			"path": "multi/projects/haskell/other"
-		},
-		{
 			"path": "multi/projects/haskell/peoplemanager"
 		},
 		{
@@ -56,6 +53,18 @@
 		},
 		{
 			"path": "multi/projects/haskell/web-other"
+		},
+		{
+			"path": "multi/projects/haskell/other/8.6.5"
+		},
+		{
+			"path": "multi/projects/haskell/other/8.8.4"
+		},
+		{
+			"path": "multi/projects/haskell/other/8.10.2"
+		},
+		{
+			"path": "multi/projects/haskell/other/8.0.2"
 		}
 	]
 }
