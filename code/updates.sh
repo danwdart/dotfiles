@@ -30,8 +30,18 @@ do
     do
         DIR=$(dirname $STACKS)
         BASE=$(basename $DIR)
-        echo Updating $BASE...
         cd $DIR
+        echo Pruning old branches...
+        BRANCHES=$(git branch -a | grep "\(greenkeeper\|snyk\)" | sed 's/  remotes\/origin\///g')
+        for BRANCH in $BRANCHES
+        do
+            echo Pruning $BRANCH...
+            git branch -d $BRANCH || echo "Oh well"
+            git push origin :$BRANCH || echo "Oh well"
+            echo Pruned branch
+        done
+        echo Done pruning
+        echo Updating $BASE...
         ncu -un
         npm install || echo "Nah"
         echo Finished updating $BASE
