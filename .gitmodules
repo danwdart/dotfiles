@@ -281,3 +281,6 @@
 [submodule "code/mine/docker/dockers"]
 	path = code/mine/docker/dockers
 	url = git@github.com:danwdart/dockers.git
+[submodule "code/commissions/vehicle-hire"]
+	path = code/commissions/vehicle-hire
+	url = git@github.com:danwdart/vehicle-hire.git
