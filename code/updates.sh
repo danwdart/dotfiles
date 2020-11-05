@@ -15,6 +15,12 @@ do
         BASE=$(basename $DIR)
         echo Updating $BASE...
         cd $DIR
+        for FILE in $(find -path ".stack-work" -prune -o -name "*.hs" | grep -v .stack-work)
+        do
+            echo Fixing $FILE...
+            hlint $FILE --refactor --refactor-options=-i || echo "Can't do that this time"
+            stylish-haskell -i $FILE || echo "Can't do that this time"
+        done
         stack build
         echo Finished updating $BASE
         cd $INITDIR
