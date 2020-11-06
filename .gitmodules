@@ -284,3 +284,6 @@
 [submodule "code/commissions/vehicle-hire"]
 	path = code/commissions/vehicle-hire
 	url = git@github.com:danwdart/vehicle-hire.git
+[submodule "code/commissions/futuretest"]
+	path = code/commissions/futuretest
+	url = git@github.com:danwdart/futuretest.git
