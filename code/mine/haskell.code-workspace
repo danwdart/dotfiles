@@ -91,6 +91,12 @@
 		{
 			"name": "dockers",
 			"path": "docker/dockers"
+		},
+		{
+			"path": "../commissions/foodsurvey"
+		},
+		{
+			"path": "../commissions/vehicle-hire"
 		}
 	]
 }
