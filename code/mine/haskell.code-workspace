@@ -91,6 +91,9 @@
 		{
 			"name": "dockers",
 			"path": "docker/dockers"
+		},
+		{
+			"path": "../.."
 		}
 	]
 }
