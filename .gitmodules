@@ -287,3 +287,6 @@
 [submodule "code/commissions/futuretest"]
 	path = code/commissions/futuretest
 	url = git@github.com:danwdart/futuretest.git
+[submodule "code/contrib/hspec-webdriver"]
+	path = code/contrib/hspec-webdriver
+	url = git@github.com:danwdart/hspec-webdriver
