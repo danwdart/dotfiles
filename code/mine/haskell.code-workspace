@@ -25,68 +25,8 @@
 			"path": "haskell/chatter"
 		},
 		{
-			"name": "boardgames",
-			"path": "multi/projects/haskell/boardgames"
-		},
-		{
-			"name": "cgi-bin",
-			"path": "multi/projects/haskell/cgi-bin"
-		},
-		{
-			"name": "consolefrp",
-			"path": "multi/projects/haskell/consolefrp"
-		},
-		{
-			"name": "ghcjs-stuff",
-			"path": "multi/projects/haskell/ghcjs-stuff"
-		},
-		{
-			"name": "jsaddle-stuff",
-			"path": "multi/projects/haskell/jsaddle-stuff"
-		},
-		{
-			"name": "maths",
-			"path": "multi/projects/haskell/maths"
-		},
-		{
-			"name": "misostuff",
-			"path": "multi/projects/haskell/misostuff"
-		},
-		{
-			"name": "peoplemanager",
-			"path": "multi/projects/haskell/peoplemanager"
-		},
-		{
-			"name": "reflex-headless",
-			"path": "multi/projects/haskell/reflex-headless"
-		},
-		{
-			"name": "reflexstuff",
-			"path": "multi/projects/haskell/reflexstuff"
-		},
-		{
-			"name": "slsdemo",
-			"path": "multi/projects/haskell/slsdemo"
-		},
-		{
-			"name": "web-other",
-			"path": "multi/projects/haskell/web-other"
-		},
-		{
-			"name": "8.0.2",
-			"path": "multi/projects/haskell/other/8.0.2"
-		},
-		{
-			"name": "8.6.5",
-			"path": "multi/projects/haskell/other/8.6.5"
-		},
-		{
-			"name": "8.8.4",
-			"path": "multi/projects/haskell/other/8.8.4"
-		},
-		{
-			"name": "8.10.2",
-			"path": "multi/projects/haskell/other/8.10.2"
+			"name": "haskell",
+			"path": "multi/projects/haskell"
 		},
 		{
 			"name": "dockers",
