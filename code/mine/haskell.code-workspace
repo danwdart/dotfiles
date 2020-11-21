@@ -34,6 +34,15 @@
 		},
 		{
 			"path": "../contrib/humblr"
+		},
+		{
+			"path": "../contrib/fsutils"
+		},
+		{
+			"path": "../contrib/hspec-webdriver"
+		},
+		{
+			"path": "../.."
 		}
 	]
 }
