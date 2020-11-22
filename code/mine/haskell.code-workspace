@@ -31,15 +31,6 @@
 		{
 			"name": "dockers",
 			"path": "docker/dockers"
-		},
-		{
-			"path": "../contrib/fsutils"
-		},
-		{
-			"path": "../contrib/hspec-webdriver"
-		},
-		{
-			"path": "../contrib/humblr"
 		}
 	]
 }
