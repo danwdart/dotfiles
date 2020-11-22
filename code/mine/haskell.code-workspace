@@ -40,9 +40,6 @@
 		},
 		{
 			"path": "../contrib/hspec-webdriver"
-		},
-		{
-			"path": "../.."
 		}
 	]
 }
