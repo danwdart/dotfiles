@@ -50,10 +50,10 @@ do
         echo Updating $BASE...
         ncu -un
         npm install || echo "Nah"
-        git stash
-        git add package.json package-lock.json
-        git commit -m 'updates'
-        git stash pop
+        git stash || echo nah
+        git add package.json package-lock.json || echo nah
+        git commit -m 'updates' || echo nah
+        git stash pop || echo nah
         git push
         echo Finished updating $BASE
         cd $INITDIR
