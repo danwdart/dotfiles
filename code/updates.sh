@@ -18,8 +18,8 @@ do
         for FILE in $(find -path ".stack-work" -prune -o -name "*.hs" | grep -v .stack-work | grep -v dist-newstyle)
         do
             echo Fixing $FILE...
-            hlint $FILE --refactor --refactor-options=-i || echo "Can't do that this time"
-            stylish-haskell -i $FILE || echo "Can't do that this time"
+            #hlint $FILE --refactor --refactor-options=-i || echo "Can't do that this time"
+            #stylish-haskell -i $FILE || echo "Can't do that this time"
         done
         stack build
         echo Finished updating $BASE
@@ -50,6 +50,11 @@ do
         echo Updating $BASE...
         ncu -un
         npm install || echo "Nah"
+        git stash
+        git add package.json package-lock.json
+        git commit -m 'updates'
+        git stash pop
+        git push
         echo Finished updating $BASE
         cd $INITDIR
     done
