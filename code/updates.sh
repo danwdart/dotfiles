@@ -8,6 +8,7 @@ echo Finding Haskell projects...
 for DIRLOC in ~/code/mine/haskell ~/code/mine/multi/projects/haskell
 do
     echo Using repos location $DIRLOC
+    cd $DIRLOC
     find -name stack.yaml.lock -delete
     for STACKS in $(find $DIRLOC -name stack.yaml)
     do
@@ -30,6 +31,7 @@ echo Finding JS projects...
 for DIRLOC in ~/code/mine/js ~/code/mine/multi/projects/js
 do
     echo Using repos location $DIRLOC
+    cd $DIRLOC
     find -name package-lock.json -delete
     find -name yarn.lock -delete
     for STACKS in $(find $DIRLOC -path "*node_modules*" -prune -o -name package.json)
@@ -48,12 +50,11 @@ do
         done
         echo Done pruning
         echo Updating $BASE...
-        ncu -un
-        npm install || echo "Nah"
-        git stash || echo nah
-        git add package.json package-lock.json || echo nah
+        #ncu -un
+        #npm install || echo "Nah"
+        git add package.json || echo nah
+        git add package-lock.json || echo nah
         git commit -m 'updates' || echo nah
-        git stash pop || echo nah
         git push
         echo Finished updating $BASE
         cd $INITDIR
