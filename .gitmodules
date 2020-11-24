@@ -290,3 +290,12 @@
 [submodule "code/contrib/hspec-webdriver"]
 	path = code/contrib/hspec-webdriver
 	url = git@github.com:danwdart/hspec-webdriver
+[submodule "code/code/contrib/fsutils"]
+	path = code/code/contrib/fsutils
+	url = git@github.com:danwdart/fsutils.git
+[submodule "code/contrib/fsutils"]
+	path = code/contrib/fsutils
+	url = git@github.com:danwdart/fsutils.git
+[submodule "code/contrib/humblr"]
+	path = code/contrib/humblr
+	url = git@github.com:danwdart/humblr.git
