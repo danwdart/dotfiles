@@ -3,299 +3,396 @@
 [submodule ".vim/bundle/node"]
 	path = .vim/bundle/node
 	url = git@github.com:moll/vim-node.git
+	branch = master
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = git@github.com:scrooloose/nerdtree.git
+	branch = master
 [submodule ".vim/bundle/onedark"]
 	path = .vim/bundle/onedark
 	url = git@github.com:joshdick/onedark.vim.git
+	branch = master
 [submodule ".vim/bundle/polyglot"]
 	path = .vim/bundle/polyglot
 	url = git@github.com:sheerun/vim-polyglot.git
+	branch = master
 [submodule ".vim/bundle/taglist"]
 	path = .vim/bundle/taglist
 	url = git@github.com:vim-scripts/taglist.vim.git
+	branch = master
 [submodule ".vim/bundle/gundo"]
 	path = .vim/bundle/gundo
 	url = http://github.com/sjl/gundo.vim.git
+	branch = master
 [submodule ".vim/bundle/fugitive"]
 	path = .vim/bundle/fugitive
 	url = git@github.com:tpope/vim-fugitive.git
+	branch = master
 [submodule ".vim/bundle/unimpaired"]
 	path = .vim/bundle/unimpaired
 	url = git@github.com:tpope/vim-unimpaired.git
+	branch = master
 
 # Commissions
 
 [submodule "code/commissions/foodsurvey"]
 	path = code/commissions/foodsurvey
 	url = git@github.com:danwdart/foodsurvey.git
+	branch = master
 [submodule "code/commissions/sysmon"]
 	path = code/commissions/sysmon
 	url = git@github.com:danwdart/sysmon.git
+	branch = master
 [submodule "code/commissions/todoapp"]
 	path = code/commissions/todoapp
 	url = git@github.com:danwdart/todoapp
+	branch = master
 [submodule "code/commissions/passport-oauth-example"]
 	path = code/commissions/passport-oauth-example
 	url = git@github.com:danwdart/passport-oauth-example
+	branch = master
 [submodule "code/commissions/Dan-cockatiel123"]
 	path = code/commissions/Dan-cockatiel123
 	url = git@github.com:danwdart/Dan-cockatiel123
+	branch = master
 [submodule "code/commissions/btreesols"]
 	path = code/commissions/btreesols
 	url = git@github.com:danwdart/btreesols
+	branch = master
+[submodule "code/commissions/vehicle-hire"]
+	path = code/commissions/vehicle-hire
+	url = git@github.com:danwdart/vehicle-hire.git
+	branch = master
+[submodule "code/commissions/futuretest"]
+	path = code/commissions/futuretest
+	url = git@github.com:danwdart/futuretest.git
+	branch = master
 
 # Mine
 [submodule "code/mine/asm/danos"]
 	path = code/mine/asm/danos
 	url = git@github.com:danwdart/danos.git
+	branch = master
 [submodule "code/mine/blitz/vinski"]
 	path = code/mine/blitz/vinski
 	url = git@github.com:danwdart/vinski.git
+	branch = master
 [submodule "code/mine/c/danos32"]
 	path = code/mine/c/danos32
 	url = git@github.com:danwdart/danos32.git
+	branch = master
 [submodule "code/mine/cpp/cricket"]
 	path = code/mine/cpp/cricket
 	url = git@github.com:danwdart/cricket.git
+	branch = master
 [submodule "code/mine/c/software-application-standard"]
 	path = code/mine/c/software-application-standard
 	url = git@github.com:danwdart/software-application-standard.git
+	branch = master
 [submodule "code/mine/docker/pooh"]
 	path = code/mine/docker/pooh
 	url = git@github.com:danwdart/pooh.git
+	branch = master
 [submodule "code/mine/docker/sanitos"]
 	path = code/mine/docker/sanitos
 	url = git@github.com:danwdart/sanitos.git
+	branch = master
 [submodule "code/mine/empty/danos64"]
 	path = code/mine/empty/danos64
 	url = git@github.com:danwdart/danos64.git
+	branch = master
 [submodule "code/mine/empty/nostalgia"]
 	path = code/mine/empty/nostalgia
 	url = git@github.com:danwdart/nostalgia.git
+	branch = master
 [submodule "code/mine/haskell/4letters"]
 	path = code/mine/haskell/4letters
 	url = git@github.com:danwdart/4letters.git
+	branch = master
 [submodule "code/mine/haskell/compositions"]
 	path = code/mine/haskell/compositions
 	url = git@github.com:danwdart/compositions.git
+	branch = master
 [submodule "code/mine/haskell/funky-birthdays"]
 	path = code/mine/haskell/funky-birthdays
 	url = git@github.com:danwdart/funky-birthdays.git
+	branch = master
 [submodule "code/mine/js/anglo"]
 	path = code/mine/js/anglo
 	url = git@github.com:danwdart/anglo.git
+	branch = master
 [submodule "code/mine/js/arsebeatfish"]
 	path = code/mine/js/arsebeatfish
 	url = git@github.com:danwdart/arsebeatfish.git
+	branch = master
 [submodule "code/mine/js/autosnope"]
 	path = code/mine/js/autosnope
 	url = git@github.com:danwdart/autosnope.git
+	branch = master
 [submodule "code/mine/js/avia"]
 	path = code/mine/js/avia
 	url = git@github.com:danwdart/avia.git
+	branch = master
 [submodule "code/mine/js/bev"]
 	path = code/mine/js/bev
 	url = git@github.com:danwdart/bev.git
+	branch = master
 [submodule "code/mine/js/dartcomm"]
 	path = code/mine/js/dartcomm
 	url = git@github.com:danwdart/dartcomm.git
+	branch = master
 [submodule "code/mine/js/drpl"]
 	path = code/mine/js/drpl
 	url = git@github.com:danwdart/drpl.git
+	branch = master
 [submodule "code/mine/js/equationsounds"]
 	path = code/mine/js/equationsounds
 	url = git@github.com:danwdart/equationsounds.git
+	branch = master
 [submodule "code/mine/js/fps"]
 	path = code/mine/js/fps
 	url = git@github.com:danwdart/fps.git
+	branch = master
 [submodule "code/mine/js/freespeech"]
 	path = code/mine/js/freespeech
 	url = git@github.com:danwdart/freespeech.git
+	branch = master
 [submodule "code/mine/js/fsm"]
 	path = code/mine/js/fsm
 	url = git@github.com:danwdart/fsm.git
+	branch = master
 [submodule "code/mine/js/gravity"]
 	path = code/mine/js/gravity
 	url = git@github.com:danwdart/gravity.git
+	branch = master
 [submodule "code/mine/js/haber"]
 	path = code/mine/js/haber
 	url = git@github.com:danwdart/haber.git
+	branch = master
 [submodule "code/mine/js/heartish"]
 	path = code/mine/js/heartish
 	url = git@github.com:danwdart/heartish.git
+	branch = master
 [submodule "code/mine/js/jammin"]
 	path = code/mine/js/jammin
 	url = git@github.com:danwdart/jammin.git
+	branch = master
 [submodule "code/mine/js/js86"]
 	path = code/mine/js/js86
 	url = git@github.com:danwdart/js86.git
+	branch = master
 [submodule "code/mine/js/jsarm"]
 	path = code/mine/js/jsarm
 	url = git@github.com:danwdart/jsarm.git
+	branch = master
 [submodule "code/mine/js/kallistarvin"]
 	path = code/mine/js/kallistarvin
 	url = git@github.com:danwdart/kallistarvin.git
+	branch = master
 [submodule "code/mine/js/movesic"]
 	path = code/mine/js/movesic
 	url = git@github.com:danwdart/movesic.git
+	branch = master
 [submodule "code/mine/js/oeis"]
 	path = code/mine/js/oeis
 	url = git@github.com:danwdart/oeis.git
+	branch = master
 [submodule "code/mine/js/omegcli"]
 	path = code/mine/js/omegcli
 	url = git@github.com:danwdart/omegcli.git
+	branch = master
 [submodule "code/mine/js/patchdeck"]
 	path = code/mine/js/patchdeck
 	url = git@github.com:danwdart/patchdeck.git
+	branch = master
 [submodule "code/mine/js/pcomm"]
 	path = code/mine/js/pcomm
 	url = git@github.com:danwdart/pcomm.git
+	branch = master
 [submodule "code/mine/js/polypropene"]
 	path = code/mine/js/polypropene
 	url = git@github.com:danwdart/polypropene.git
+	branch = master
 [submodule "code/mine/js/retroradio"]
 	path = code/mine/js/retroradio
 	url = git@github.com:danwdart/retroradio.git
+	branch = master
 [submodule "code/mine/js/scalr-phonegap"]
 	path = code/mine/js/scalr-phonegap
 	url = git@github.com:danwdart/scalr-phonegap.git
+	branch = master
 [submodule "code/mine/js/secant"]
 	path = code/mine/js/secant
 	url = git@github.com:danwdart/secant.git
+	branch = master
 [submodule "code/mine/js/serverless-prs-github"]
 	path = code/mine/js/serverless-prs-github
 	url = git@github.com:danwdart/serverless-prs-github.git
+	branch = master
 [submodule "code/mine/js/vidsort"]
 	path = code/mine/js/vidsort
 	url = git@github.com:danwdart/vidsort.git
+	branch = master
 [submodule "code/mine/js/vinski2"]
 	path = code/mine/js/vinski2
 	url = git@github.com:danwdart/vinski2.git
+	branch = master
 [submodule "code/mine/js/VypZZ"]
 	path = code/mine/js/VypZZ
 	url = git@github.com:danwdart/VypZZ.git
+	branch = master
 [submodule "code/mine/js/zepper"]
 	path = code/mine/js/zepper
 	url = git@github.com:danwdart/zepper.git
+	branch = master
 [submodule "code/mine/other/webtex"]
 	path = code/mine/other/webtex
 	url = git@github.com:danwdart/webtex.git
+	branch = master
 [submodule "code/mine/php/amqp"]
 	path = code/mine/php/amqp
 	url = git@github.com:danwdart/amqp.git
+	branch = master
 [submodule "code/mine/php/betabud"]
 	path = code/mine/php/betabud
 	url = git@github.com:danwdart/betabud.git
+	branch = master
 [submodule "code/mine/php/Bibud"]
 	path = code/mine/php/Bibud
 	url = git@github.com:danwdart/Bibud.git
+	branch = master
 [submodule "code/mine/php/evilphp"]
 	path = code/mine/php/evilphp
 	url = git@github.com:danwdart/evilphp.git
+	branch = master
 [submodule "code/mine/php/form"]
 	path = code/mine/php/form
 	url = git@github.com:danwdart/form.git
+	branch = master
 [submodule "code/mine/php/multiorm"]
 	path = code/mine/php/multiorm
 	url = git@github.com:danwdart/multiorm.git
+	branch = master
 [submodule "code/mine/php/php-async"]
 	path = code/mine/php/php-async
 	url = git@github.com:danwdart/php-async.git
+	branch = master
 [submodule "code/mine/php/php-socket"]
 	path = code/mine/php/php-socket
 	url = git@github.com:danwdart/php-socket.git
+	branch = master
 [submodule "code/mine/php/projectchaplin"]
 	path = code/mine/php/projectchaplin
 	url = git@github.com:danwdart/projectchaplin.git
+	branch = master
 [submodule "code/mine/php/sesite"]
 	path = code/mine/php/sesite
 	url = git@github.com:danwdart/sesite.git
+	branch = master
 [submodule "code/mine/php/ShareAV"]
 	path = code/mine/php/ShareAV
 	url = git@github.com:danwdart/ShareAV.git
+	branch = master
 [submodule "code/mine/php/widgeter"]
 	path = code/mine/php/widgeter
 	url = git@github.com:danwdart/widgeter.git
+	branch = master
 [submodule "code/mine/php/xenon"]
 	path = code/mine/php/xenon
 	url = git@github.com:danwdart/xenon.git
+	branch = master
 [submodule "code/mine/php/zetabud"]
 	path = code/mine/php/zetabud
 	url = git@github.com:danwdart/zetabud.git
+	branch = master
 [submodule "code/mine/pug/jolharg-theme"]
 	path = code/mine/pug/jolharg-theme
 	url = git@github.com:danwdart/jolharg-theme.git
+	branch = master
 [submodule "code/mine/shell/autopache"]
 	path = code/mine/shell/autopache
 	url = git@github.com:danwdart/autopache.git
+	branch = master
 [submodule "code/mine/shell/distruck"]
 	path = code/mine/shell/distruck
 	url = git@github.com:danwdart/distruck.git
+	branch = master
 [submodule "code/mine/shell/glitcher"]
 	path = code/mine/shell/glitcher
 	url = git@github.com:danwdart/glitcher.git
+	branch = master
 [submodule "code/mine/shell/gwallgofrwydd"]
 	path = code/mine/shell/gwallgofrwydd
 	url = git@github.com:danwdart/gwallgofrwydd.git
+	branch = master
 [submodule "code/mine/shell/install_everything"]
 	path = code/mine/shell/install_everything
 	url = git@github.com:danwdart/install_everything.git
+	branch = master
 [submodule "code/mine/shell/scrapeda"]
 	path = code/mine/shell/scrapeda
 	url = git@github.com:danwdart/scrapeda.git
+	branch = master
 [submodule "code/mine/shell/scrapepins"]
 	path = code/mine/shell/scrapepins
 	url = git@github.com:danwdart/scrapepins.git
+	branch = master
 [submodule "code/mine/shell/system"]
 	path = code/mine/shell/system
 	url = git@github.com:danwdart/system.git
+	branch = master
 [submodule "code/mine/shell/update-checker"]
 	path = code/mine/shell/update-checker
 	url = git@github.com:danwdart/update-checker.git
+	branch = master
 [submodule "code/mine/tcl/selaunch"]
 	path = code/mine/tcl/selaunch
 	url = git@github.com:danwdart/selaunch.git
+	branch = master
 [submodule "code/mine/vb6/rflvb"]
 	path = code/mine/vb6/rflvb
 	url = git@github.com:danwdart/rflvb.git
+	branch = master
 [submodule "code/mine/vb6/sevb"]
 	path = code/mine/vb6/sevb
 	url = git@github.com:danwdart/sevb.git
+	branch = master
 [submodule "code/mine/vb6/winspy"]
 	path = code/mine/vb6/winspy
 	url = git@github.com:danwdart/winspy.git
+	branch = master
 [submodule "code/mine/haskell/websites"]
 	path = code/mine/haskell/websites
 	url = git@github.com:danwdart/websites.git
+	branch = master
 [submodule "code/mine/haskell/chatter"]
 	path = code/mine/haskell/chatter
 	url = git@github.com:danwdart/chatter.git
+	branch = master
 [submodule "code/mine/haskell/dubloons"]
 	path = code/mine/haskell/dubloons
 	url = git@github.com:danwdart/dubloons.git
+	branch = master
 [submodule "code/mine/multi/projects"]
 	path = code/mine/multi/projects
 	url = git@github.com:danwdart/projects.git
+	branch = master
 [submodule "code/mine/docker/dockers"]
 	path = code/mine/docker/dockers
 	url = git@github.com:danwdart/dockers.git
-[submodule "code/commissions/vehicle-hire"]
-	path = code/commissions/vehicle-hire
-	url = git@github.com:danwdart/vehicle-hire.git
-[submodule "code/commissions/futuretest"]
-	path = code/commissions/futuretest
-	url = git@github.com:danwdart/futuretest.git
+	branch = master
+
+# contrib
+
 [submodule "code/contrib/hspec-webdriver"]
 	path = code/contrib/hspec-webdriver
 	url = git@github.com:danwdart/hspec-webdriver
-[submodule "code/code/contrib/fsutils"]
-	path = code/code/contrib/fsutils
-	url = git@github.com:danwdart/fsutils.git
+	branch = master
 [submodule "code/contrib/fsutils"]
 	path = code/contrib/fsutils
 	url = git@github.com:danwdart/fsutils.git
+	branch = master
 [submodule "code/contrib/humblr"]
 	path = code/contrib/humblr
 	url = git@github.com:danwdart/humblr.git
+	branch = master
