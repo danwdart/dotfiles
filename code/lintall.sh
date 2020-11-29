@@ -13,13 +13,9 @@ do
         BASE=$(basename $DIR)
         echo Updating $BASE...
         cd $DIR
-        for FILE in $(find -path ".stack-work" -prune -o -name "*.hs" | grep -v .stack-work | grep -v dist-newstyle)
-        do
-            echo Fixing $FILE...
-            # todo parallel
-            hlint $FILE --refactor --refactor-options=-i || echo "Can't do that this time"
-            stylish-haskell -i $FILE || echo "Can't do that this time"
-        done
+        FILES=$(find -path ".stack-work" -prune -o -name "*.hs" | grep -v .stack-work | grep -v dist-newstyle)
+        parallel hlint --refactor --refactor-options=-i ::: $FILES
+        parallel stylish-haskell -i ::: $FILES
         echo Finished updating $BASE
         cd $INITDIR
     done
