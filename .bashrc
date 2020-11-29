@@ -27,3 +27,4 @@ if [[ ! "$SSH_AUTH_SOCK" ]]; then
     source "$XDG_RUNTIME_DIR/ssh-agent.env" >/dev/null
 fi
 export BROWSER=firefox
+export ELECTRON_TRASH=gio
