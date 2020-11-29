@@ -23,12 +23,6 @@ do
                 stack config set resolver lts
             fi
         fi
-        for FILE in $(find -path ".stack-work" -prune -o -name "*.hs" | grep -v .stack-work | grep -v dist-newstyle)
-        do
-            echo Fixing $FILE...
-            hlint $FILE --refactor --refactor-options=-i || echo "Can't do that this time"
-            stylish-haskell -i $FILE || echo "Can't do that this time"
-        done
         stack build
         echo Finished updating $BASE
         cd $INITDIR
