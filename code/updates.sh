@@ -2,8 +2,6 @@
 set -e
 INITDIR=~/code
 cd $INITDIR
-# Clear deps
-# Update snapshot version
 echo Finding Haskell projects...
 for DIRLOC in ~/code/mine/haskell ~/code/mine/multi/projects/haskell
 do
@@ -16,11 +14,20 @@ do
         BASE=$(basename $DIR)
         echo Updating $BASE...
         cd $DIR
+        if [[ $(grep "resolver: nightly" stack.yaml) ]];
+        then
+            stack config set resolver nightly
+        else
+            if [[ $(grep "resolver: lts-16" stack.yaml) ]];
+            then
+                stack config set resolver lts
+            fi
+        fi
         for FILE in $(find -path ".stack-work" -prune -o -name "*.hs" | grep -v .stack-work | grep -v dist-newstyle)
         do
             echo Fixing $FILE...
-            #hlint $FILE --refactor --refactor-options=-i || echo "Can't do that this time"
-            #stylish-haskell -i $FILE || echo "Can't do that this time"
+            hlint $FILE --refactor --refactor-options=-i || echo "Can't do that this time"
+            stylish-haskell -i $FILE || echo "Can't do that this time"
         done
         stack build
         echo Finished updating $BASE
@@ -50,8 +57,8 @@ do
         done
         echo Done pruning
         echo Updating $BASE...
-        #ncu -un
-        #npm install || echo "Nah"
+        ncu -un
+        npm install || echo "Nah"
         git add package.json || echo nah
         git add package-lock.json || echo nah
         git commit -m 'updates' || echo nah
