@@ -24,6 +24,11 @@ do
             fi
         fi
         stack build
+
+        git add stack.yaml || echo nah
+        git add stack.yaml.lock || echo nah
+        git commit -m 'updates' || echo nah
+        git push
         echo Finished updating $BASE
         cd $INITDIR
     done

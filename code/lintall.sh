@@ -14,8 +14,8 @@ do
         echo Updating $BASE...
         cd $DIR
         FILES=$(find -path ".stack-work" -prune -o -name "*.hs" | grep -v .stack-work | grep -v dist-newstyle)
-        parallel hlint --refactor --refactor-options=-i ::: $FILES
-        parallel stylish-haskell -i ::: $FILES
+        parallel --halt never hlint --refactor --refactor-options=-i ::: $FILES
+        parallel --halt never stylish-haskell -i ::: $FILES
         echo Finished updating $BASE
         cd $INITDIR
     done
