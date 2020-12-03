@@ -27,10 +27,6 @@
 		{
 			"name": "haskell",
 			"path": "multi/projects/haskell"
-		},
-		{
-			"name": "dockers",
-			"path": "docker/dockers"
 		}
 	]
 }
