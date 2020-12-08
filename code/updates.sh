@@ -14,6 +14,18 @@ do
         BASE=$(basename $DIR)
         echo Updating $BASE...
         cd $DIR
+
+        if [[ "consolefrp" != "$BASE" ]] && [[ "8.0.2" != "$BASE" ]] && [[ "8.6.5" != "$BASE" ]]
+        then
+            echo Updating cabal version in use...
+            sed -i '/cabal-version.*/d' *.cabal
+            sed -i '1 s/^/cabal-version:       3.0\n/1' *.cabal
+            git add *.cabal || echo nah
+            git commit -m 'update cabal' || echo nah
+            git push
+        fi
+        
+        echo Updating stack resolver...
         if [[ $(grep "resolver: nightly" stack.yaml) ]];
         then
             stack config set resolver nightly
@@ -23,6 +35,7 @@ do
                 stack config set resolver lts
             fi
         fi
+
         stack build
 
         git add stack.yaml || echo nah
