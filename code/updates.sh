@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
-INITDIR=~/code
-cd $INITDIR
+CODEDIR=$PWD
+cd $CODEDIR
 echo Finding Haskell projects...
-for DIRLOC in ~/code/mine/haskell ~/code/mine/multi/projects/haskell
+for DIRLOC in $CODEDIR/mine/haskell $CODEDIR/mine/multi/projects/haskell
 do
     echo Using repos location $DIRLOC
     cd $DIRLOC
@@ -43,11 +43,11 @@ do
         git commit -m 'updates' || echo nah
         git push
         echo Finished updating $BASE
-        cd $INITDIR
+        cd $CODEDIR
     done
 done
 echo Finding JS projects...
-for DIRLOC in ~/code/mine/js ~/code/mine/multi/projects/js
+for DIRLOC in $CODEDIR/mine/js $CODEDIR/mine/multi/projects/js
 do
     echo Using repos location $DIRLOC
     cd $DIRLOC
@@ -76,7 +76,7 @@ do
         git commit -m 'updates' || echo nah
         git push
         echo Finished updating $BASE
-        cd $INITDIR
+        cd $CODEDIR
     done
 done
 echo Done!

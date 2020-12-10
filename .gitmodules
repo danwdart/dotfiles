@@ -396,3 +396,6 @@
 	path = code/contrib/humblr
 	url = git@github.com:danwdart/humblr.git
 	branch = master
+[submodule "code/mine/haskell/frugaled"]
+	path = code/mine/haskell/frugaled
+	url = git@github.com:danwdart/frugaled.git
