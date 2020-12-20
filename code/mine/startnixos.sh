@@ -1,0 +1,1 @@
+docker run --name nixos --hostname nixos -d -v $PWD:/app -w /app -e "CACHIX_AUTH_TOKEN=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjJDIyMTMiLCJqdGkiOiIzYTMzZWI5Ny0yNjJjLTRkMzQtODEwNS0wZmI5OGFkZDU0ZDkiLCJzY29wZXMiOiJjYWNoZSJ9.dOM6hR6d8LAnF4r_k9AxWlTWlZDl0TaAyi1npYbDKFc" -v ~/.ssh:/root/.ssh -i  nixos/nix cat
