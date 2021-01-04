@@ -27,6 +27,12 @@
 		{
 			"name": "haskell",
 			"path": "multi/projects/haskell"
+		},
+		{
+			"path": "shell/system"
+		},
+		{
+			"path": "../../Downloads/Card-Game-Updated"
 		}
 	]
 }
