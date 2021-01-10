@@ -32,7 +32,13 @@
 			"path": "shell/system"
 		},
 		{
-			"path": "../../Downloads/Card-Game-Updated"
+			"path": "../commissions/coding-test-angular"
+		},
+		{
+			"path": "../commissions/coding-test-php"
+		},
+		{
+			"path": "docker/dockers"
 		}
 	]
 }

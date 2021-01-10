@@ -399,3 +399,9 @@
 [submodule "code/mine/haskell/frugaled"]
 	path = code/mine/haskell/frugaled
 	url = git@github.com:danwdart/frugaled.git
+[submodule "code/commissions/coding-test-php"]
+	path = code/commissions/coding-test-php
+	url = git@github.com:danwdart/coding-test-php.git
+[submodule "code/commissions/coding-test-angular"]
+	path = code/commissions/coding-test-angular
+	url = git@github.com:danwdart/coding-test-angular.git
