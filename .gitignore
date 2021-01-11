@@ -36,3 +36,5 @@
 !/.ssh/
 /.ssh/*
 !/.ssh/config
+
+!/.direnvrc
