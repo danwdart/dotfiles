@@ -42,9 +42,6 @@
 		},
 		{
 			"path": "../commissions/grypp-coding-test"
-		},
-		{
-			"path": "../other/dotnet-docker"
 		}
 	]
 }
