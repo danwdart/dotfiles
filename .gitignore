@@ -1,6 +1,7 @@
 /*
 !/.gitignore
 !/.gitconfig
+!/.gitattributes
 
 !/.bashrc
 !/.bash_profile
@@ -38,3 +39,6 @@
 !/.ssh/config
 
 !/.direnvrc
+
+# encrypted stuff
+!/.quakespasm
