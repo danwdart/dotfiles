@@ -1,0 +1,10 @@
+crosshair 1
+disconnect
+game dopa
+bind 9 "impukse 9"
+bind 9 "impule 9"
+bind 9 "impuls 9"
+bind 9 "impulse9"
+bind 9 "impulse 9"
+bind g "god"
+bind q "impulse -1"
