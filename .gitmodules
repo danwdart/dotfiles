@@ -405,3 +405,6 @@
 [submodule "code/commissions/coding-test-angular"]
 	path = code/commissions/coding-test-angular
 	url = git@github.com:danwdart/coding-test-angular.git
+[submodule "code/commissions/grypp-coding-test"]
+	path = code/commissions/grypp-coding-test
+	url = git@github.com:danwdart/grypp-coding-test.git
