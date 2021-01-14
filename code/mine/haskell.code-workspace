@@ -9,24 +9,28 @@
 			"path": "haskell/4letters"
 		},
 		{
-			"name": "dubloons",
-			"path": "haskell/dubloons"
+			"name": "chatter",
+			"path": "haskell/chatter"
 		},
 		{
 			"name": "compositions",
 			"path": "haskell/compositions"
 		},
 		{
-			"name": "websites",
-			"path": "haskell/websites"
+			"name": "dubloons",
+			"path": "haskell/dubloons"
+		},
+		{
+			"name": "frugaled",
+			"path": "haskell/frugaled"
 		},
 		{
 			"name": "funky-birthdays",
 			"path": "haskell/funky-birthdays"
 		},
 		{
-			"name": "chatter",
-			"path": "haskell/chatter"
+			"name": "websites",
+			"path": "haskell/websites"
 		},
 		{
 			"name": "haskell",
