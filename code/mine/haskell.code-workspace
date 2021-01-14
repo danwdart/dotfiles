@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"name": "Documents",
+			"path": "../../Documents"
+		},
+		{
 			"name": "4letters",
 			"path": "haskell/4letters"
 		},
@@ -29,18 +33,23 @@
 			"path": "multi/projects/haskell"
 		},
 		{
+			"name": "system",
 			"path": "shell/system"
 		},
 		{
+			"name": "coding-test-angular",
 			"path": "../commissions/coding-test-angular"
 		},
 		{
+			"name": "coding-test-php",
 			"path": "../commissions/coding-test-php"
 		},
 		{
+			"name": "dockers",
 			"path": "docker/dockers"
 		},
 		{
+			"name": "grypp-coding-test",
 			"path": "../commissions/grypp-coding-test"
 		}
 	]
