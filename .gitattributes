@@ -1,6 +1,7 @@
 # secretfile filter=git-crypt diff=git-crypt
-# *.key filter=git-crypt diff=git-crypt
 # secretdir/** filter=git-crypt diff=git-crypt
 *.pak filter=git-crypt diff=git-crypt
-# .quakespasm/** filter=git-crypt diff=git-crypt
+*.wad filter=git-crypt diff=git-crypt
+*.sav filter=git-crypt diff=git-crypt
 track*.mp3 filter=git-crypt diff=git-crypt
+track*.ogg filter=git-crypt diff=git-crypt
