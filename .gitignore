@@ -40,6 +40,3 @@
 !/.ssh/config
 
 !/.direnvrc
-
-# encrypted stuff
-!/games
