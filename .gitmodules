@@ -408,3 +408,6 @@
 [submodule "code/commissions/grypp-coding-test"]
 	path = code/commissions/grypp-coding-test
 	url = git@github.com:danwdart/grypp-coding-test.git
+[submodule "code/commissions/if-frontend-challenge"]
+	path = code/commissions/if-frontend-challenge
+	url = git@github.com:danwdart/if-frontend-challenge.git
