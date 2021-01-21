@@ -43,5 +43,8 @@
 		{
 			"path": "../.."
 		}
-	]
+	],
+	"settings": {
+		"nixEnvSelector.nixShellConfig": "NOT_MODIFIED_ENV"
+	}
 }
