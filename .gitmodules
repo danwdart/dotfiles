@@ -67,6 +67,33 @@
 	path = code/commissions/futuretest
 	url = git@github.com:danwdart/futuretest.git
 	branch = master
+[submodule "code/commissions/coding-test-php"]
+	path = code/commissions/coding-test-php
+	url = git@github.com:danwdart/coding-test-php.git
+[submodule "code/commissions/coding-test-angular"]
+	path = code/commissions/coding-test-angular
+	url = git@github.com:danwdart/coding-test-angular.git
+[submodule "code/commissions/grypp-coding-test"]
+	path = code/commissions/grypp-coding-test
+	url = git@github.com:danwdart/grypp-coding-test.git
+[submodule "code/commissions/if-frontend-challenge"]
+	path = code/commissions/if-frontend-challenge
+	url = git@github.com:danwdart/if-frontend-challenge.git
+[submodule "code/commissions/engage-test"]
+	path = code/commissions/engage-test
+	url = git@github.com:danwdart/engage-test.git
+[submodule "code/commissions/4cplatform-php-coding-test"]
+	path = code/commissions/4cplatform-php-coding-test
+	url = git@github.com:danwdart/4cplatform-php-coding-test.git
+[submodule "code/commissions/coding-test-convertize"]
+	path = code/commissions/coding-test-convertize
+	url = git@github.com:danwdart/coding-test-convertize.git
+[submodule "code/commissions/onbuy-test"]
+	path = code/commissions/onbuy-test
+	url = git@github.com:danwdart/onbuy-test.git
+[submodule "code/commissions/rawnet-solutions"]
+	path = code/commissions/rawnet-solutions
+	url = git@github.com:danwdart/rawnet-solutions.git
 
 # Mine
 [submodule "code/mine/asm/danos"]
@@ -113,6 +140,9 @@
 	path = code/mine/haskell/compositions
 	url = git@github.com:danwdart/compositions.git
 	branch = master
+[submodule "code/mine/haskell/frugaled"]
+	path = code/mine/haskell/frugaled
+	url = git@github.com:danwdart/frugaled.git
 [submodule "code/mine/haskell/funky-birthdays"]
 	path = code/mine/haskell/funky-birthdays
 	url = git@github.com:danwdart/funky-birthdays.git
@@ -396,33 +426,3 @@
 	path = code/contrib/humblr
 	url = git@github.com:danwdart/humblr.git
 	branch = master
-[submodule "code/mine/haskell/frugaled"]
-	path = code/mine/haskell/frugaled
-	url = git@github.com:danwdart/frugaled.git
-[submodule "code/commissions/coding-test-php"]
-	path = code/commissions/coding-test-php
-	url = git@github.com:danwdart/coding-test-php.git
-[submodule "code/commissions/coding-test-angular"]
-	path = code/commissions/coding-test-angular
-	url = git@github.com:danwdart/coding-test-angular.git
-[submodule "code/commissions/grypp-coding-test"]
-	path = code/commissions/grypp-coding-test
-	url = git@github.com:danwdart/grypp-coding-test.git
-[submodule "code/commissions/if-frontend-challenge"]
-	path = code/commissions/if-frontend-challenge
-	url = git@github.com:danwdart/if-frontend-challenge.git
-[submodule "code/commissions/engage-test"]
-	path = code/commissions/engage-test
-	url = git@github.com:danwdart/engage-test.git
-[submodule "code/commissions/4cplatform-php-coding-test"]
-	path = code/commissions/4cplatform-php-coding-test
-	url = git@github.com:danwdart/4cplatform-php-coding-test.git
-[submodule "code/commissions/coding-test-convertize"]
-	path = code/commissions/coding-test-convertize
-	url = git@github.com:danwdart/coding-test-convertize.git
-[submodule "code/commissions/onbuy-test"]
-	path = code/commissions/onbuy-test
-	url = git@github.com:danwdart/onbuy-test.git
-[submodule "code/commissions/rawnet-solutions"]
-	path = code/commissions/rawnet-solutions
-	url = git@github.com:danwdart/rawnet-solutions.git

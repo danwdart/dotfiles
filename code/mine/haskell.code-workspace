@@ -42,6 +42,24 @@
 		},
 		{
 			"path": "../.."
+		},
+		{
+			"path": "../commissions/current/engage-test"
+		},
+		{
+			"path": "../commissions/current/grypp-coding-test"
+		},
+		{
+			"path": "../commissions/current/if-frontend-challenge"
+		},
+		{
+			"path": "../commissions/current/onbuy-test"
+		},
+		{
+			"path": "../commissions/current/rawnet-solutions"
+		},
+		{
+			"path": "../commissions/current/4cplatform-php-coding-test"
 		}
 	],
 	"settings": {
