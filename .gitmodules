@@ -45,19 +45,19 @@
 	branch = master
 [submodule "code/commissions/todoapp"]
 	path = code/commissions/todoapp
-	url = git@github.com:danwdart/todoapp
+	url = git@github.com:danwdart/todoapp.git
 	branch = master
 [submodule "code/commissions/passport-oauth-example"]
 	path = code/commissions/passport-oauth-example
-	url = git@github.com:danwdart/passport-oauth-example
+	url = git@github.com:danwdart/passport-oauth-example.git
 	branch = master
 [submodule "code/commissions/Dan-cockatiel123"]
 	path = code/commissions/Dan-cockatiel123
-	url = git@github.com:danwdart/Dan-cockatiel123
+	url = git@github.com:danwdart/Dan-cockatiel123.git
 	branch = master
 [submodule "code/commissions/btreesols"]
 	path = code/commissions/btreesols
-	url = git@github.com:danwdart/btreesols
+	url = git@github.com:danwdart/btreesols.git
 	branch = master
 [submodule "code/commissions/vehicle-hire"]
 	path = code/commissions/vehicle-hire
@@ -411,3 +411,18 @@
 [submodule "code/commissions/if-frontend-challenge"]
 	path = code/commissions/if-frontend-challenge
 	url = git@github.com:danwdart/if-frontend-challenge.git
+[submodule "code/commissions/engage-test"]
+	path = code/commissions/engage-test
+	url = git@github.com:danwdart/engage-test.git
+[submodule "code/commissions/4cplatform-php-coding-test"]
+	path = code/commissions/4cplatform-php-coding-test
+	url = git@github.com:danwdart/4cplatform-php-coding-test.git
+[submodule "code/commissions/coding-test-convertize"]
+	path = code/commissions/coding-test-convertize
+	url = git@github.com:danwdart/coding-test-convertize.git
+[submodule "code/commissions/onbuy-test"]
+	path = code/commissions/onbuy-test
+	url = git@github.com:danwdart/onbuy-test.git
+[submodule "code/commissions/rawnet-solutions"]
+	path = code/commissions/rawnet-solutions
+	url = git@github.com:danwdart/rawnet-solutions.git
