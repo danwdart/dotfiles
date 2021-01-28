@@ -136,6 +136,9 @@
 	path = code/mine/haskell/4letters
 	url = git@github.com:danwdart/4letters.git
 	branch = master
+[submodule "code/mine/haskell/appmaker"]
+	path = code/mine/haskell/appmaker
+	url = git@github.com:danwdart/appmaker.git
 [submodule "code/mine/haskell/compositions"]
 	path = code/mine/haskell/compositions
 	url = git@github.com:danwdart/compositions.git
@@ -147,6 +150,9 @@
 	path = code/mine/haskell/funky-birthdays
 	url = git@github.com:danwdart/funky-birthdays.git
 	branch = master
+[submodule "code/mine/haskell/jobfinder"]
+	path = code/mine/haskell/jobfinder
+	url = git@github.com:danwdart/jobfinder.git
 [submodule "code/mine/js/anglo"]
 	path = code/mine/js/anglo
 	url = git@github.com:danwdart/anglo.git
