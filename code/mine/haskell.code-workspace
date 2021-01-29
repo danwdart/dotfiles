@@ -53,24 +53,7 @@
 			"path": "../.."
 		},
 		{
-			"name": "engage-test",
-			"path": "../commissions/current/engage-test"
-		},
-		{
-			"name": "if-frontend-challenge",
-			"path": "../commissions/current/if-frontend-challenge"
-		},
-		{
-			"name": "onbuy-test",
-			"path": "../commissions/current/onbuy-test"
-		},
-		{
-			"name": "rawnet-solutions",
-			"path": "../commissions/current/rawnet-solutions"
-		},
-		{
-			"name": "4cplatform-php-coding-test",
-			"path": "../commissions/current/4cplatform-php-coding-test"
+			"path": "../commissions/4cplatform-php-coding-test"
 		}
 	],
 	"settings": {
