@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"name": "epaas-service-catalogue",
+			"path": "../commissions/epaas-service-catalogue"
+		},
+		{
 			"name": "4letters",
 			"path": "haskell/4letters"
 		},
@@ -51,9 +55,6 @@
 		{
 			"name": "dwd",
 			"path": "../.."
-		},
-		{
-			"path": "../commissions/4cplatform-php-coding-test"
 		}
 	],
 	"settings": {
