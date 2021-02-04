@@ -51,9 +51,6 @@
 		{
 			"name": "dwd",
 			"path": "../.."
-		},
-		{
-			"path": "../commissions/4cplatform-php-coding-test"
 		}
 	],
 	"settings": {
