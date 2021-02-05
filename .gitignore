@@ -40,3 +40,5 @@
 !/.ssh/config
 
 !/.direnvrc
+
+!/VMs
