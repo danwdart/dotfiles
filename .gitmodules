@@ -432,3 +432,6 @@
 	path = code/contrib/humblr
 	url = git@github.com:danwdart/humblr.git
 	branch = master
+[submodule "VMs/OSX-KVM"]
+	path = VMs/OSX-KVM
+	url = git@github.com:kholia/OSX-KVM.git
