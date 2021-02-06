@@ -49,8 +49,10 @@
 			"path": "shell/system"
 		},
 		{
-			"name": "dwd",
-			"path": "../.."
+			"path": ".."
+		},
+		{
+			"path": "../../VMs"
 		}
 	],
 	"settings": {
