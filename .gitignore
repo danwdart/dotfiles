@@ -42,3 +42,7 @@
 !/.direnvrc
 
 !/VMs
+
+!/.config/
+/.config/*
+!/.config/nix
