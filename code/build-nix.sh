@@ -7,6 +7,7 @@ for FILE in $(find $CODEDIR -name default.nix)
 do
     DIRLOC=$(dirname $FILE)
     cd $DIRLOC
-    nix-build | cachix push websites
+    nix-build shell.nix
+    nix-store -qR --include-outputs $(nix-instantiate shell.nix) | cachix push websites
 done
 cd $CODEDIR
